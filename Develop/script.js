@@ -61,7 +61,7 @@ function getPrompts () {
 function generatePassword () {
   var setUpRandom = "";
 
-  // creating a for loop in order to "randomly generate" the characters
+  // creating a for loop in order to "randomly generate" the characters based on the array
   for(var i = 0; i < characterLength; i++) {
     var randomNumber = Math.floor(Math.random() * choiceArray.length);
     setUpRandom = setUpRandom + choiceArray[randomNumber];
