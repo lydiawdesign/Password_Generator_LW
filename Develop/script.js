@@ -40,7 +40,7 @@ function getPrompts () {
   }
 
   // asking user if they would like uppercase letters in their password and if yes we will add the uppercase letters to the blank array to reference in a later function
-  if(confirm("Would you like to include lowercase letters in your password?")) {
+  if(confirm("Would you like to include uppercase letters in your password?")) {
     choiceArray = choiceArray.concat(upperLetters);
   }
 
@@ -63,7 +63,7 @@ function generatePassword () {
 
   // creating a for loop in order to "randomly generate" the characters
   for(var i = 0; i < characterLength; i++) {
-    var randomNumber = Math.floor(Math.random() * characterLength);
+    var randomNumber = Math.floor(Math.random() * choiceArray.length);
     setUpRandom = setUpRandom + choiceArray[randomNumber];
   }
   return setUpRandom;
