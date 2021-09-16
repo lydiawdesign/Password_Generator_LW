@@ -50,8 +50,10 @@ THEN the password is either displayed in an alert or written to the page
 Html, css, javascript
 
 ## Screenshot
-![image](password generator screenshot.jpg)
-![image](password generator screenshot with password.jpg)
+![password generator screenshot](https://user-images.githubusercontent.com/87274229/133632602-fb7a49dc-c80b-46bf-9012-b3095a1c073f.jpg)
+![password generator screenshot with password](https://user-images.githubusercontent.com/87274229/133632635-d48623ac-660d-4caa-9295-49466fd66113.jpg)
+
+
 
 Copyright (c) 2021 Lydia Williamson
 
