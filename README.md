@@ -1,5 +1,10 @@
 # 03 JavaScript: Password Generator Lydia Williamson
 
+This application enables employees to generate random passwords based on criteria that they’ve selected (number of characters, lowercase letters, uppercase letters, numbers and special characters). This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. 
+
+Link to Repo: https://github.com/lydiawdesign/Password_Generator_LW
+Link to Live Site: https://lydiawdesign.github.io/Password_Generator_LW/
+
 ## User Story
 
 ```
@@ -41,3 +46,14 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 - line 21  displays the newly generated password in the html
 ```
+## Technologies Used: 
+Html, css, javascript
+
+## Screenshot
+![image](password generator screenshot.jpg)
+![image](password generator screenshot with password.jpg)
+
+Copyright (c) 2021 Lydia Williamson
+
+Contact: lydiawdesign@gmail.com
+
